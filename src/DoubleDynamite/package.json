@@ -1,6 +1,6 @@
 {
   "name": "DoubleDynamite",
-  "version": "1.0.0",
+  "version": "1.0.1-nightly@9ca9134",
   "description": "skips phase 1 of twinrova",
   "main": "DoubleDynamite.js",
   "scripts": {
@@ -9,5 +9,7 @@
   "keywords": [],
   "author": "denoflions",
   "license": "MIT",
-  "core": "OcarinaofTime"
+  "core": "Z64Lib",
+  "date": "Mon, 11 Oct 2021 13:11:09 GMT",
+  "commit": "9ca9134"
 }
