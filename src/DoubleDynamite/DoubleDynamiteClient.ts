@@ -13,7 +13,7 @@ export default class DoubleDynamiteClient {
     core!: IZ64Main;
     phaseSkipped: boolean = false;
 
-    @EventHandler(Z64.OotEvents.ON_ACTOR_SPAWN)
+    @EventHandler(Z64.Z64Events.ON_ACTOR_SPAWN)
     onAnnoyingBossSpawned(actor: IActor) {
         if (actor.actorID === 0x00DC && !this.phaseSkipped) {
             if (actor.health === 0) {
@@ -24,7 +24,7 @@ export default class DoubleDynamiteClient {
         }
     }
 
-    @EventHandler(Z64.OotEvents.ON_LOADING_ZONE)
+    @EventHandler(Z64.Z64Events.ON_LOADING_ZONE)
     onSceneChanged(evt: any) {
         this.phaseSkipped = false;
     }

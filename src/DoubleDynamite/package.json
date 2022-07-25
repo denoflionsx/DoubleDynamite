@@ -1,6 +1,6 @@
 {
   "name": "DoubleDynamite",
-  "version": "1.0.1-nightly@fc17f6d",
+  "version": "1.0.1-nightly@c73c7e7",
   "description": "skips phase 1 of twinrova",
   "main": "DoubleDynamite.js",
   "scripts": {
@@ -10,6 +10,6 @@
   "author": "denoflions",
   "license": "MIT",
   "core": "Z64Lib",
-  "date": "Mon, 11 Oct 2021 13:15:09 GMT",
-  "commit": "fc17f6d"
+  "date": "Mon, 25 Jul 2022 22:24:19 GMT",
+  "commit": "c73c7e7"
 }
